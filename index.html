@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Uma comunidade para apoiar mulheres que fazem live coding.">
     <title>Live Coder Girls BR</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Lato&family=Press+Start+2P&display=swap"
@@ -12,34 +13,58 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <img class="logo" src="img/logo.jpeg" alt="logo" />
-      <a class="twitter" href="https://twitter.com/girlslivecoders"
-        ><img src="img/twitter.png" alt="Twiiter icon" />Siga a gente</a
-      >
+    <header class="header">
+      <a class="logo" href="/" title="Logo Live Coder Girls Brasil">
+          <img 
+              src="img/logo.jpeg" 
+              alt="Logo Live Coder Girls Brasil"
+          >    
+      </a>
+      <div class="social">
+        <a 
+          class="social__link" 
+          href="https://twitter.com/girlslivecoders"
+          title="Nos siga no twitter!"
+        >
+          <img src="img/twitter.png" alt="Twiiter icon" />
+        </a>
+      </div>    
     </header>
-    <div class="title">
-      <h1>Live Coder Girls Brasil</h1>
-    </div>
-
-    <main>
-      <div class="oi">
-        <h3>Olá,</h3>
-        <p>
-          Live Coder Girls BR é um grupo de mulheres que tem como objetivo
-          aumentar a visibilidade das mulheres que fazem live coding e trazer
-          mais mulheres para esse cenário, dando suporte a quem está começando e
-          ajudando quem está há mais tempo a crescer e atingir seus objetivos
-        </p>
-        <button class="button">
-          <a class="discord" href="https://discord.gg/uh7BTdJ"
-            >Seja uma de nós!</a
+    <main class="intro">
+      <div class="intro__content">
+          <h1 class="title">Live Coder Girls Brasil</h1>
+          <p class="description">
+            Live Coder Girls BR é um grupo de mulheres que tem como objetivo
+            aumentar a visibilidade das mulheres que fazem live coding e trazer
+            mais mulheres para esse cenário, dando suporte a quem está começando e
+            ajudando quem está há mais tempo a crescer e atingir seus objetivos.
+            <a 
+              class="intro__link"
+              href="https://github.com/Caaddss/awesome-live-coding-streams/blob/master/awesome_twitch_minorias.md"
+              title="Conheça nossas streamers!"
+            >
+              Conheça nossas streamers.
+            </a>
+          </p>
+          <a 
+              class="link" 
+              href="https://discord.gg/uh7BTdJ"
+              target="_blank" 
+              title="Seja uma de nós!"
           >
-        </button>
+            Seja uma de nós!
+          </a>
       </div>
-      <div class="imagem">
-        <img class="girls" src="img/girls.png" />
+
+      <div class="img">
+          <img 
+              src="img/girls.png"
+              alt="Two girls"
+          >
       </div>
-    </main>
+    </main>  
+    <footer class="footer">
+      <p class="footer_text">Handcrafted with &#10084; by Live Coder Girls Brasil ©2020</p>
+    </footer>
   </body>
 </html>
